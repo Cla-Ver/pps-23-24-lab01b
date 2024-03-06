@@ -2,10 +2,10 @@ package e1;
 
 import java.util.Random;
 
-public class Pawn implements ChessPiece{
+public class Pawn extends Piece implements ChessPiece{
 
     private Pair<Integer, Integer> pawn;
-
+    
     public Pawn(int BOARD_SIZE){
         pawn = setRandomPosition(BOARD_SIZE);
     }
