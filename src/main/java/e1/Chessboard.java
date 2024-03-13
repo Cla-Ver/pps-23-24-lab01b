@@ -33,5 +33,7 @@ public class Chessboard {
         return BOARD_SIZE;
     }
 
+    //public void addCell
+
 
 }
